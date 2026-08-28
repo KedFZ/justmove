@@ -1,0 +1,9 @@
+{
+    "version": "1.3.0",
+    "description": "Command line tool for moving filesystem items without the risk of renaming them",
+    "homepage": "https://github.com/KedFZ/justmove",
+    "license": "MIT",
+    "url": "https://github.com/KedFZ/justmove/releases/download/1.3/justmove.exe",
+    "hash": "8125B8747143092C8A31B645100C102FAABC647C3AB6D6FB3011D71BB1BC3673",
+    "bin": "justmove.exe"
+}
