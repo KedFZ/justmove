@@ -33,8 +33,14 @@ Options:
   
   
 Installation (Windows):  
-Download the `justmove.json` file and run `scoop install .\justmove.json` in the file's directory
+Download the `justmove.json` file and run `scoop install .\justmove.json` in the file's directory  
+
+
+
 Or download the executable from the Releases page https://github.com/KedFZ/justmove/releases/tag/1.3  
+
+
+
   
   
 This project is 99% finished, just waiting for someone to add a desktop Linux-compiled binary to the repository. After that, I will no longer be updating the project.
