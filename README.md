@@ -23,7 +23,7 @@ C:\User\me\projects\directory1
   
   
 ```PowerShell
-(cat paths.txt) | justmove `C:\User\me\documents`; # Moves all the listed files above to C:\User\me\documents\
+(cat paths.txt) | justmove "C:\User\me\documents"; # Moves all the listed files above to C:\User\me\documents\
 ```
   
   
