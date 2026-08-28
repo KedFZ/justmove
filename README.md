@@ -43,5 +43,5 @@ Or download the executable from the Releases page https://github.com/KedFZ/justm
 
   
   
-This project is 99% finished, just waiting for someone to add a desktop Linux-compiled binary to the repository. After that, I will no longer be updating the project.
+This project is finished and I will no longer be updating the project, although a desktop Linux-compiled binary is be welcome.
 The project is licensed under the MIT License, feel free to make your own fork with the Linux binary and long-term support.
