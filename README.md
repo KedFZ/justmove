@@ -1,7 +1,7 @@
 # justmove
 Command line tool for moving filesystem items without the risk of renaming them
 
-Was just sick of `mv` overwriting my files instead of simply moving them.  
+Got sick of `mv` overwriting my files instead of simply moving them.  
 
     
 
@@ -11,10 +11,11 @@ justmove [source_path] [destination_path] [options]
 
     
 
-`justmove` supports moving multiple source paths from `stdin` separated by newline. The new moved path is also supplied as `stdout`.  
+`justmove` supports moving multiple source paths from `stdin` separated by newline. The full moved path is also supplied as `stdout`.  
 
     
 
+paths.txt:
 ```plaintext
 C:\User\me\projects\test.cpp
 C:\User\me\projects\test.exe
@@ -23,7 +24,7 @@ C:\User\me\projects\directory1
   
   
 ```PowerShell
-(cat paths.txt) | justmove "C:\User\me\documents"; # Moves all the listed files above to C:\User\me\documents\
+(cat paths.txt) | justmove "C:\User\me\documents"; # Moves all the files listed above to C:\User\me\documents\
 ```
   
   
