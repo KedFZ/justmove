@@ -9,13 +9,13 @@ justmove [source_path] [destination_path] [options]
 
 `justmove` supports moving multiple source paths from `stdin` separated by newline. The new moved path is also supplied as `stdout`.
 
-plaintext```
+```plaintext
 C:\User\me\projects\test.cpp
 C:\User\me\projects\test.exe
 C:\User\me\projects\directory1
 ```
 
-PowerShelll```
+```PowerShell
 (cat paths.txt) | justmove `C:\User\me\documents`; # Moves all the listed files above to C:\User\me\documents\
 ```
 
